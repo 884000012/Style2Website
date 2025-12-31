@@ -135,7 +135,9 @@ input, textarea {
 
 @media (max-width: 728px) {
     .row {
+        display: flex;
         flex-direction: column;
+        align-items: center;
     }
 }
 
